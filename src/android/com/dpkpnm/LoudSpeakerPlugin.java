@@ -1,6 +1,6 @@
 /**
  */
-package com.example;
+package com.dpkpnm;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
@@ -16,13 +16,13 @@ import android.util.Log;
 
 import java.util.Date;
 
-public class MyCordovaPlugin extends CordovaPlugin {
-  private static final String TAG = "MyCordovaPlugin";
+public class LoudSpeakerPlugin extends CordovaPlugin {
+  private static final String TAG = "LoudSpeakerPlugin";
 
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
     super.initialize(cordova, webView);
 
-    Log.d(TAG, "Initializing MyCordovaPlugin");
+    Log.d(TAG, "Initializing LoudSpeakerPlugin");
   }
 
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {

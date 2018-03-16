@@ -1,12 +1,11 @@
 {
-  "name": "cordova-plugin-template",
+  "name": "cordova-plugin-loudspeaker",
   "version": "1.0.0",
   "cordova": {
-    "id": "cordova-plugin-template",
+    "id": "cordova-plugin-loudspeaker",
     "platforms": [
       "android",
-      "ios"
     ]
   },
-  "description": "A starting point for a Cordova Plugin"
+  "description": "Android music/media controls"
 }
